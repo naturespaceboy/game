@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;}
+
+   
+#game{
+
+   background-image: url(jaadu.jpg);
+   background-size: cover;
+   height: 1000px;
+   width: 1000px;
+   position: relative;
+   margin: 0 auto;
+   overflow: hidden;
+
+}
+#banana{
+    width: 100px;
+    height: 100px;
+   
+    animation: slide 2s linear infinite;
+    position: relative;
+    background-image: url(star.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+@keyframes slide{
+    0%{top: 0}
+    100%{top: 1000px}
+}
+#monkey{
+    width: 200px;
+    height: 200px;
+   
+    position:absolute;
+    top: 700px;
+    left: 100px;
+    background-image: url(rocket.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#score{
+        font-size: 100px;
+        z-index: 20;
+        font-family: arial;
+        color: #d7e4d9;
+        user-select:none;
+        width:100%;
+        text-align:center;
+}
+
+#line{
+    width: 1000px;
+    height: 100px;
+    background: black;
+    position:absolute;
+    top: 900px;
+    
+}
+#timer{
+    color:white;
+    font-size: 20px;
+    width: 110px;
+    position:absolute;
+    margin-left: 450px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    
+}
