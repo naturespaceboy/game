@@ -42,6 +42,11 @@ body{
     background-image: url(rocket.png);
     background-size: contain;
     background-repeat: no-repeat;
+    scroll-snap-type:x mandatory;
+    scroll-padding:10px;
+    scroll-snap-align:start;
+    behaviour: 'smooth';
+    inline:'start';
     
 }
 #score{
